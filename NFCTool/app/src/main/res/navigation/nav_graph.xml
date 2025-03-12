@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_read">
+
+    <fragment
+        android:id="@+id/navigation_read"
+        android:name="com.example.nfctool.fragments.ReadFragment"
+        android:label="读取NFC" />
+
+    <fragment
+        android:id="@+id/navigation_write"
+        android:name="com.example.nfctool.fragments.WriteFragment"
+        android:label="写入NFC" />
+
+    <fragment
+        android:id="@+id/navigation_emulate"
+        android:name="com.example.nfctool.fragments.EmulateFragment"
+        android:label="门禁卡模拟" />
+
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.example.nfctool.fragments.SettingsFragment"
+        android:label="设置" />
+</navigation> 
